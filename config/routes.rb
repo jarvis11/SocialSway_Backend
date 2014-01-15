@@ -1,4 +1,10 @@
 SocialSwayBackend::Application.routes.draw do
+  get "general_frontend/home"
+  get "general_frontend/timemachine_overview"
+  get "general_frontend/timemachine_cases"
+  get "general_frontend/contact"
+  get "general_frontend/platform"
+  get "general_frontend/about"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

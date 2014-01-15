@@ -1,0 +1,2 @@
+module GeneralFrontendHelper
+end
