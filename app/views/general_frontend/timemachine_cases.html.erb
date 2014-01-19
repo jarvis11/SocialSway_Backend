@@ -1,2 +1,512 @@
-<h1>GeneralFrontend#timemachine_cases</h1>
-<p>Find me in app/views/general_frontend/timemachine_cases.html.erb</p>
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<title>SocialSway - Time Machine Cases</title>
+		<meta name="keywords" content="SocialSway, ad tech, marketing, advertising, programmatic marketing" />
+		<meta name="description" content="SocialSway - Artificial Intelligence + Social Advertising">
+		<meta name="author" content="Bhaskar Ravi">
+		
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Web Fonts  -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Libs CSS -->
+		<!-- <link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" href="vendor/flexslider/flexslider.css" media="screen" />
+		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen" /> -->
+		
+		<%=stylesheet_link_tag "flexslider.css"%>
+		<%=stylesheet_link_tag "magnific-popup.css"%>
+
+		<!-- Theme CSS -->
+		<!-- <link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+		<link rel="stylesheet" href="css/theme-animate.css"> -->
+		
+		<%=stylesheet_link_tag "theme.css"%>
+		<%=stylesheet_link_tag "theme-elements.css"%>
+		<%=stylesheet_link_tag "theme-animate.css"%>
+		
+
+		<!-- Skin CSS -->
+		<!-- <link rel="stylesheet" href="css/skins/purple.css"> -->
+		
+		<%=stylesheet_link_tag "purple.css"%>
+		
+
+		<!-- Custom CSS -->
+		<!-- <link rel="stylesheet" href="css/custom.css"> -->
+		
+		<%=stylesheet_link_tag "custom.css"%>
+		
+
+		<!-- Responsive CSS -->
+		<!-- <link rel="stylesheet" href="css/theme-responsive.css" /> -->
+		
+		<%=stylesheet_link_tag "theme-responsive.css"%>
+		
+
+		<!-- Head Libs -->
+		<script src="vendor/modernizr.js"></script>
+		<%=javascript_include_tag "modernizr.js"%>
+		
+
+		<!--[if IE]>
+			<link rel="stylesheet" href="css/ie.css">
+		<![endif]-->
+
+		<!--[if lte IE 8]>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+
+		<!--BEGIN HEADER -->
+
+		<div class="body">
+			<header class="single-menu flat-menu">
+				<div class="container">
+					<h1 class="logo">
+						<a href="index.html">
+							<%= image_tag("logo.png", alt: "SocialSway")%>
+						</a>
+					</h1>
+					<button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
+						<i class="icon icon-bars"></i>
+					</button>
+				</div>
+				<div class="navbar-collapse nav-main-collapse collapse">
+					<div class="container">
+						<div class="social-icons">
+							<ul class="social-icons">
+								<li class="facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook">Facebook</a></li>
+								<li class="twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter">Twitter</a></li>
+								<li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin">Linkedin</a></li>
+							</ul>
+						</div>
+						<nav class="nav-main mega-menu">
+							<ul class="nav nav-pills nav-main" id="mainMenu">
+								
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="home.html">
+										Home
+									</a>
+								</li>
+								
+								<li class="dropdown active">
+									<a class="dropdown-toggle" href="#">
+										Time Machine
+										<i class="icon icon-angle-down"></i>
+									</a>
+										<ul class="dropdown-menu">
+											<li><a href="timemachine_overview.html">Overview</a></li>
+											<li><a href="timemachine_cases.html">Case Studies</a></li>
+										</ul>							
+								</li>
+								
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="platform.html">
+										Platform
+									</a>
+								</li>		
+														
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="about.html">
+										About Us
+									</a>									
+								</li>	
+																														
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="contact.html">
+										Contact Us	
+									</a>
+								</li>
+								
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			
+			<!--END HEADER-->
+			
+			<div role="main" class="main">
+
+				<section class="page-top">
+					<!--<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="breadcrumb">
+									<li><a href="index.html">Home</a></li>
+									<li class="active">Predictive Bidding</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<h2>Case Studies</h2>
+							</div>
+						</div>
+					</div>-->
+				</section>
+
+				<div class="container">
+
+					<h2><strong>Time Machine</strong> in Action</h2>
+
+						<div class="row">
+							<div class="col-md-12">
+								<p>The following cases show the effect of Time Machine on social acquisition campaigns in both the Telecom and Healh & Beauty Industries. These industries represent two of the largest in terms of advertising dollars spent on Facebook. With Time Machine, campaigns run in both industries expereienced improvement in cost savings and performance. </p>
+							</div>
+						</div>
+						
+						<hr class="tall">
+						
+						<h3> Case Study: Telecom Industry </h3>
+						<div class="row">
+							<div class="col-md-8">
+								<table class="table table-bordered">
+									<thead>
+										<tr>
+											<th>
+												Campaign Type
+											</th>
+											<th>
+												Standard Optimized Bidding<br>
+											</th>
+											<th>
+												SocialSway Predictive Bidding<br>
+									
+											</th>											
+										</tr>
+									</thead>
+									<tbody>										
+										<tr>
+											<td>
+												Cost
+											</td>
+											<td>
+												$11,077
+										
+											</td>
+											<td>
+												$8,842
+											</td>											
+										</tr>
+										<tr>
+											<td>
+												Total Clicks
+											</td>
+											<td>
+												30,030
+											</td>
+											<td>
+												33,976
+											</td>											
+										</tr>
+										<tr>
+											<td>
+												Total Likes
+											</td>
+											<td>
+												6051
+											</td>
+											<td>
+												6027
+											</td>											
+										</tr>
+										<tr>
+											<td>
+												Average CPA
+											</td>
+											<td>
+												$1.83
+											</td>
+											<td>
+												$1.34
+											</td>											
+										</tr>
+										<tr>
+											<td>
+												Avereage CTR
+											</td>
+											<td>
+												0.91%
+											</td>
+											<td>
+												0.92%
+											</td>										
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							
+							<div class="col-md-4">
+								<ul class="list icons list-unstyled">
+									<li><i class="icon icon-money"></i> <strong>Campaign Savings</strong> 19% decrease in costs to reach goal.</li>
+									<li><i class="icon icon-arrow-down"></i> <strong>Decreased CPA</strong> 27% decrease in average CPA.</li>
+									<li><i class="icon icon-comment"></i> <strong>Increase Buzz</strong> 13% increase in consumer interaction (actions + clicks). </li>
+									
+								</ul>								
+							</div>
+						</div>
+					<div class = "row">							
+						<div class="col-md-12">
+							<p>The data above is part of a month long Ad Group, with the goal of acquiring 6,000 Page Likes at the lowest possible cost. By leveraging Time Machine, costs were cut significantly and audience interaction increased substantially. Time Machine was able to stop the campaign very close to the 6,000 Likes goal, conserving budget and providing flexibility as to how savings could be used. </p>
+						</div>				
+					</div>
+					
+					<hr class="tall">
+					
+					<h3> Case Study: Health & Beauty Industry </h3>
+					<div class="row">
+						<div class="col-md-8">
+							<table class="table table-bordered">
+								<thead>
+									<tr>
+										<th>
+											Campaign Type
+										</th>
+										<th>
+											Standard Optimized Bidding<br>
+										</th>
+										<th>
+											SocialSway Predictive Bidding<br>									
+										</th>									
+									</tr>
+								</thead>
+								<tbody>									
+									<tr>
+										<td>
+											Cost
+										</td>										
+										<td>
+											$3,554
+										</td>
+										<td>
+											$3,040
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Total Clicks
+										</td>										
+										<td>
+											12,153
+										</td>
+										<td>
+											14,637
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Total Likes
+										</td>										
+										<td>
+											2511
+										</td>
+										<td>
+											2502
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Average CPA
+										</td>										
+										<td>
+											$1.42
+										</td>
+										<td>
+											$1.06
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Avereage CTR
+										</td>										
+										<td>
+											0.72%
+										</td>
+										<td>
+											0.74%
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					<div class="col-md-4">
+						<ul class="list icons list-unstyled">
+							<li><i class="icon icon-money"></i> <strong>Campaign Savings</strong> 14% decrease in costs to reach goal.</li>
+							<li><i class="icon icon-arrow-down"></i> <strong>Decreased CPA</strong> 25% decrease in average CPA.</li>
+							<li><i class="icon icon-comment"></i> <strong>Increase Buzz</strong> 17% increase in consumer interaction (actions + clicks). </li>
+								
+						</ul>								
+					</div>
+				</div>
+				<div class = "row">							
+					<div class="col-md-12">
+						<p>The above case takes place in the Health & Beauty industry. The data shown is part of a month long Ad Group, with the goal of acquiring 2,500 Page Likes at the lowest possible cost. By leveraging Time Machine, campaign costs were cut significantly, and audience interaction increased substantially. Time Machine was able to stop the campaign almost exactly at the 2,500 Likes goal, conserving budget and providing flexibility as to how savings could be used. </p>
+					</div>				
+				</div>
+				
+						
+					
+					
+					
+					
+		</div><!--CLOSING CONTAINER-->
+					
+					
+							
+
+							
+
+							
+			
+			
+			
+
+
+			<section class="call-to-action featured footer">
+				<div class="container">
+					<div class="row">
+						<div class="center">
+							<h3>SocialSway's <strong>Time Machine</strong> runs your campaigns with <strong>confidence.</strong></h3>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Begin Footer -->
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="footer-ribon">
+							<span>Get in Touch</span>
+						</div>
+						<!--<div class="col-md-3">
+							<div class="newsletter">
+								<h4>Newsletter</h4>
+								<p>Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.</p>
+
+								<div class="alert alert-success hidden" id="newsletterSuccess">
+									<strong>Success!</strong> You've been added to our email list.
+								</div>
+
+								<div class="alert alert-danger hidden" id="newsletterError"></div>
+
+								<form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST">
+									<div class="input-group">
+										<input class="form-control" placeholder="Email Address" name="email" id="email" type="text">
+										<span class="input-group-btn">
+											<button class="btn btn-default" type="submit">Go!</button>
+										</span>
+									</div>
+								</form>
+							</div>
+						</div>-->
+						<!--<div class="col-md-3">
+							<h4>Latest Tweet</h4>
+							<div id="tweet" class="twitter" data-account-id="crivosthemes">
+								<p>Please wait...</p>
+							</div>
+						</div>-->
+						<div class="col-md-10">
+							<div class="contact-details">
+								<h4>Contact Us</h4>
+								<ul class="contact">
+									<li><p><i class="icon icon-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</p></li>
+									<li><p><i class="icon icon-phone"></i> <strong>Phone:</strong> (123) 456-7890</p></li>
+									<li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<h4>Follow Us</h4>
+							<div class="social-icons">
+								<ul class="social-icons">
+									<li class="facebook"><a href="http://www.facebook.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Facebook">Facebook</a></li>
+									<li class="twitter"><a href="http://www.twitter.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Twitter">Twitter</a></li>
+									<li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Linkedin">Linkedin</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-1">
+								<a href="index.html" class="logo">
+									<!--<img alt="Porto Website Template" class="img-responsive" src="img/logo-footer.png">-->
+								</a>
+							</div>
+							<div class="col-md-7">
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</footer>
+			
+			<!--End Footer-->
+		</div>
+
+		<!-- Libs -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="vendor/jquery.js"><\/script>')</script>
+		<script src="js/plugins.js"></script>
+		<script src="vendor/jquery.easing.js"></script>
+		<script src="vendor/jquery.appear.js"></script>
+		<script src="vendor/jquery.cookie.js"></script>
+		<!-- <script src="master/style-switcher/style.switcher.js"></script> Style Switcher -->
+		<script src="vendor/bootstrap.js"></script>
+		<script src="vendor/twitterjs/twitter.js"></script>
+		<script src="vendor/flexslider/jquery.flexslider.js"></script>
+		<script src="vendor/jflickrfeed/jflickrfeed.js"></script>
+		<script src="vendor/magnific-popup/magnific-popup.js"></script>
+		<script src="vendor/jquery.validate.js"></script>
+		
+		<%=javascript_include_tag "plugins.js"%>
+		<%=javascript_include_tag "jquery.easing.js"%>
+		<%=javascript_include_tag "jquery.appear.js"%>
+		<%=javascript_include_tag "jquery.cookie.js"%>
+		<%=javascript_include_tag "bootstrap.js"%>
+		<%=javascript_include_tag "twitter.js"%>
+		<%=javascript_include_tag "jquery.flexslider.js"%>
+		<%=javascript_include_tag "jflickrfeed.js"%>
+		<%=javascript_include_tag "magnific-popup.js"%>
+		<%=javascript_include_tag "jquery.validate.js"%>
+
+		<!-- Theme Initializer -->
+		<script src="js/theme.js"></script>
+		<%=javascript_include_tag "theme.js"%>
+		
+
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+		<%=javascript_include_tag "custom.js"%>
+		
+
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+		<script>
+			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			e.src='//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			ga('create','UA-XXXXX-X');ga('send','pageview');
+		</script>
+		 -->
+
+	</body>
+</html>

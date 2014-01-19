@@ -1,2 +1,582 @@
-<h1>GeneralFrontend#home</h1>
-<p>Find me in app/views/general_frontend/home.html.erb</p>
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<title>SocialSway - Home</title>
+		<meta name="keywords" content="SocialSway, ad tech, marketing, advertising, programmatic marketing" />
+		<meta name="description" content="SocialSway - Artificial Intelligence + Social Advertising">
+		<meta name="author" content="Bhaskar Ravi">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Web Fonts  -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Libs CSS -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" href="vendor/flexslider/flexslider.css" media="screen" />
+		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen" />
+		
+		<%=stylesheet_link_tag "bootstrap.css"%>		
+		<%=stylesheet_link_tag "flexslider.css"%>
+		<%=stylesheet_link_tag "magnific-popup.css"%>
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+		<link rel="stylesheet" href="css/theme-animate.css">
+		
+		<%=stylesheet_link_tag "theme.css"%>
+		<%=stylesheet_link_tag "theme-elements.css"%>
+		<%=stylesheet_link_tag "theme-animate.css"%>
+		
+
+		<!-- Current Page Styles -->
+		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen" />
+		<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen" />
+		<%=stylesheet_link_tag "settings.css"%>
+		<%=stylesheet_link_tag "component.css"%>
+		
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="css/skins/purple.css">
+		<%=stylesheet_link_tag "purple.css"%>
+		
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/custom.css">
+		<%=stylesheet_link_tag "custom.css"%>
+		
+
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" href="css/theme-responsive.css" />
+		<%=stylesheet_link_tag "theme-responsive.css"%>
+		
+
+		<!-- Head Libs -->
+		<script src="vendor/modernizr.js"></script>
+		<%=javascript_include_tag "modernizr.js"%>
+		
+
+		<!--[if IE]>
+			<link rel="stylesheet" href="css/ie.css">
+		<![endif]-->
+
+		<!--[if lte IE 8]>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
+
+	</head>
+	
+	
+	<body>
+		
+		
+		<!--BEGIN HEADER -->
+
+		<div class="body">
+			<header class="single-menu flat-menu">
+				<div class="container">
+					<h1 class="logo">
+						<a href="index.html">
+							<%= image_tag("logo.png", alt: "SocialSway")%>
+						</a>
+					</h1>
+					<button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
+						<i class="icon icon-bars"></i>
+					</button>
+				</div>
+				<div class="navbar-collapse nav-main-collapse collapse">
+					<div class="container">
+						<div class="social-icons">
+							<ul class="social-icons">
+								<li class="facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook">Facebook</a></li>
+								<li class="twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter">Twitter</a></li>
+								<li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin">Linkedin</a></li>
+							</ul>
+						</div>
+						<nav class="nav-main mega-menu">
+							<ul class="nav nav-pills nav-main" id="mainMenu">
+								
+								<li class="dropdown active">
+									<a class="dropdown-toggle" href="home.html">
+										Home
+									</a>
+								</li>
+								
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#">
+										Time Machine
+										<i class="icon icon-angle-down"></i>
+									</a>
+										<ul class="dropdown-menu">
+											<li><a href="timemachine_overview.html">Overview</a></li>
+											<li><a href="timemachine_cases.html">Case Studies</a></li>
+										</ul>							
+								</li>
+								
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="platform.html">
+										Platform
+									</a>
+								</li>		
+														
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="about.html">
+										About Us
+									</a>									
+								</li>	
+																														
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="contact.html">
+										Contact Us	
+									</a>
+								</li>
+								
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			
+			<!--END HEADER-->
+			
+			<div role="main" class="main">
+				<div id="content" class="content full">
+
+					<div class="slider-container">
+						<div class="slider" id="revolutionSlider">
+							<ul>
+								<li data-transition="fade" data-slotamount="13" data-masterspeed="300" >
+
+									<!-- <img src="img/slides/slide-bg.jpg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"> -->
+									<%= image_tag("slide-bg.jpg", data:{bgfit: "cover", bgposition:"left-top", bgrepeat:"no-repeat"})%>
+									
+
+									<div class="tp-caption top-label lfl stl"
+										 data-x="30"
+										 data-y="180"
+										 data-speed="300"
+										 data-start="500"
+										 data-easing="easeOutExpo">Introducing</div>
+
+									<div class="tp-caption main-label sft stb"
+										 data-x="30"
+										 data-y="210"
+										 data-speed="300"
+										 data-start="1500"
+										 data-easing="easeOutExpo">SocialSway</div>
+
+									<div class="tp-caption bottom-label sft stb"
+										 data-x="30"
+										 data-y="290"
+										 data-speed="500"
+										 data-start="2000"
+										 data-easing="easeOutExpo">Artificial Intelligence + Social Media.</div>										 																			
+								</li>
+								
+								<li data-transition="fade" data-slotamount="5" data-masterspeed="1000" >
+									
+									<!-- <img src="img/slides/slide-bg2.jpg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"> -->
+									<%= image_tag("slide-bg2.jpg", data:{bgfit: "cover", bgposition:"left-top", bgrepeat:"no-repeat"})%>
+									
+									
+										<div class="tp-caption main-label sft stb"
+											 data-x="580"
+											 data-y="190"
+											 data-speed="300"
+											 data-start="1500"
+											 data-easing="easeOutExpo"><font size = "8"><span style = "color: black;"> Time Machine</span></font></div>
+
+										<div class="tp-caption bottom-label sft stb"
+											 data-x="585"
+											 data-y="255"
+											 data-speed="500"
+											 data-start="2000"
+											 data-easing="easeOutExpo"><span style = "color: black;"> Advanced Predictive Bidding.</span></div>
+
+								</li>								
+							</ul>
+						</div>
+					</div>
+
+					<div class="home-intro">
+						<div class="container">
+
+							<div class="row center">
+								<div class="col-md-12">
+									<p>
+										<em>Powerful backend solutions for native social platforms. </em>
+									</p>
+								</div>
+								
+							</div>
+
+						</div>
+					</div>
+					
+					<!-- END OF TOP INTRO SECTION......BEGINNING OF HOME BODY -->
+
+					<div class="container">
+
+						<div class="row center">
+							<div class="col-md-12">
+								<h2 class="short word-rotator-title">
+									SocialSway is a <strong>Self-Service</strong> Social Ad-Tech Platform.								
+								</h2>
+								<p class="featured lead">
+									We provide enhanced access to Facebook's native advertising tools.									
+								</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="home-concept">
+						<div class="container">
+
+							<div class="row center">
+								<div class="col-md-2 col-md-offset-1">
+									<div class="process-image" data-appear-animation="bounceIn">
+										<!-- <img src="img/home-concept-item-1.png" alt="" /> -->
+										<%= image_tag("home-concept-item-1.png", alt: "")%>
+										
+										<strong>Create</strong>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="200">
+										<!-- <img src="img/home-concept-item-2.png" alt="" /> -->
+										<%= image_tag("home-concept-item-2.png", alt: "")%>
+										
+										<strong>Execute</strong>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="400">
+										<!-- <img src="img/home-concept-item-3.png" alt="" /> -->
+										<%= image_tag("home-concept-item-3.png", alt: "")%>
+										
+										<strong>Manage</strong>
+									</div>
+								</div>
+								<div class="col-md-4 col-md-offset-1">
+									<div class="project-image" data-appear-animation="bounceIn" data-appear-animation-delay="600">
+										<div id="fcSlideshow" class="fc-slideshow">
+											<a href="timemachine-overview.html">
+												<!-- <img class="img-responsive" src="img/home-revo-item3.png" /> -->
+												<%= image_tag("home-revo-item3.png", class: "img-responsive", alt: "")%>
+												
+											</a>
+										</div>
+										<strong class="our-work">Optimize</strong>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="container">
+
+						<div class="row">
+							<hr class="tall" />
+						</div>								
+						
+						<div class="row">
+							<div class="col-md-8">	
+								<h2>Core <strong>Features</strong></h2>							
+								<div class="row">
+									<div class="col-md-6">
+										<div class="feature-box secundary">
+											<div class="feature-box-icon">
+												<i class="icon icon-bar-chart-o"></i>
+											</div>
+											<div class="feature-box-info">
+												<h4 class="shorter">Time Machine</h4>
+												<p class="tall">Proprietary bidding algorithms cut costs-to-goal up to 20% and CPAs up to 30%.<br><br></p>
+											</div>
+										</div>
+										
+										<div class="feature-box secundary">
+											<div class="feature-box-icon">
+												<i class="icon icon-bullseye"></i>
+											</div>
+											<div class="feature-box-info">
+												<h4 class="shorter">Goal Optimization</h4>
+												<p class="tall">Optimize campaigns towards specfic goals and constrainsts.</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="feature-box secundary">
+											<div class="feature-box-icon">
+												<i class="icon icon-table"></i>
+											</div>
+											<div class="feature-box-info">
+												<h4 class="shorter">Enhanced Insights</h4>
+												<p class="tall">Real-time insights on Ad Group and campaign performance, including advanced response forecasts.</p>
+											</div>
+										</div>																					
+										<div class="feature-box secundary">
+											<div class="feature-box-icon">
+												<i class="icon icon-terminal"></i>
+											</div>
+											<div class="feature-box-info">
+												<h4 class="shorter">RESTful API</h4>
+												<p class="tall">Simple, streamlined integration with Facebook's native tools.<br><br></p>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class = "col-md-4">
+								<h2>coming soon...</h2>
+
+								<div class="panel-group" id="accordion">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+													<i class="icon icon-facebook-square"></i>
+													Facebook Ads API Frontend
+												</a>
+											</h4>
+										</div>
+										<div id="collapseOne" class="accordion-body collapse in">
+											<div class="panel-body">
+												Create, deploy, and manage your Facebook ads through our intuitive web-based platform. No programmatic setup needed.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+													<i class="icon icon-twitter"></i>
+													Multi Network Support
+												</a>
+											</h4>
+										</div>
+										<div id="collapseTwo" class="accordion-body collapse">
+											<div class="panel-body">
+												Integrate our API with Twitter's native ad client, giving you access to two of the biggest social networks through the same platform.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+						
+						<!--
+
+						<hr class="tall" />
+
+						<div class="row center">
+							<div class="col-md-12">
+								<h2 class="short word-rotator-title">
+									Artificial Intelligence is at our 
+									<strong>
+										Core
+									</strong>
+								</h2>
+								<h4 class="lead tall">At SocialSway, we put an emphasis on developing artificially intelligent technologies. With the emergence of big data, we can leverage such technologies to provide customized data driven insights for advertisers to improve their social ROI. We create highly customized, tailored, and accurate solutions for each brand; solutions that improve with time, and grow with our relationship. </h4>
+							</div>
+						</div> -->
+						
+						<!-- Client Testimonials Started -->
+						
+						<!--<div class="row center">
+							<div class="flexslider unstyled" data-plugin-options='{"directionNav":false, "animation":"slide", "slideshow": false}'>
+								<ul class="slides">
+									<li>
+										<div class="col-md-2">
+											<img class="img-responsive" src="img/logo-client-1.jpg" alt="">
+										</div>
+										<div class="col-md-2">
+											<img class="img-responsive" src="img/logo-client-2.jpg" alt="">
+										</div>
+										<div class="col-md-2">
+											<img class="img-responsive" src="img/logo-client-3.jpg" alt="">
+										</div>
+										<div class="col-md-2">
+											<img class="img-responsive" src="img/logo-client-4.jpg" alt="">
+										</div>
+										<div class="col-md-2">
+											<img class="img-responsive" src="img/logo-client-5.jpg" alt="">
+										</div>
+										<div class="col-md-2">
+											<img class="img-responsive" src="img/logo-client-6.jpg" alt="">
+										</div>
+									</li>
+									<li>
+										<div class="col-md-2">
+											<img class="img-responsive" src="img/logo-client-4.jpg" alt="">
+										</div>
+										<div class="col-md-2">
+											<img class="img-responsive" src="img/logo-client-2.jpg" alt="">
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>-->
+							
+						<!-- Client Testimonials Ending -->
+						
+					<div class="map-section">
+						<section class="featured footer map">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="recent-posts">
+											<h2>Get the <strong>Stats</strong> </h2>
+											<h4>Decrease campaign costs-to-goal up to 20%.<br><br></h4>
+											<h4>Decrease average CPAs up to 30%.<br><br></h4>
+											<h4>Increase activity your Ad Groups encounter.<br><br></h4>
+																					
+										</div>
+									</div>									
+									<div class="col-md-6">
+										<h2>Insider <strong>Buzz</strong></h2>
+										<div class="row">
+											<div class="flexslider flexslider-top-title unstyled" data-plugin-options='{"controlNav":false, "slideshow": false, "animationLoop": true, "animation":"slide"}'>
+												<ul class="slides">
+													<li>
+														<div class="col-md-12">
+															<blockquote class="testimonial">
+															<p>2013 was a big year for us, both with the official founding of our company and the successful development of our bidding technology. 2014 should provide even more success, and we are looking forward to introduce the exciting array of products and technologies we have planned for this new year.</p>
+															</blockquote>
+															<div class="testimonial-arrow-down"></div>
+															<div class="testimonial-author">
+																<!--<div class="img-thumbnail img-thumbnail-small">
+																	<img src="img/clients/BhaskarPicture.jpg" alt="">
+																</div>-->
+																<p><strong>Bhaskar Ravi</strong><span>Founder - SocialSway</span></p>
+															</div>
+														</div>
+													</li>													
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							
+						</section>
+					</div>
+				</div>
+			</div>
+
+			<!-- Begin Footer -->
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="footer-ribon">
+							<span>Get in Touch</span>
+						</div>						
+						<div class="col-md-10">
+							<div class="contact-details">
+								<h4>Contact Us</h4>
+								<ul class="contact">									
+									<li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> whatsup@socialsway.com</p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<h4>Follow Us</h4>
+							<div class="social-icons">
+								<ul class="social-icons">
+									<li class="facebook"><a href="http://www.facebook.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Facebook">Facebook</a></li>
+									<li class="twitter"><a href="http://www.twitter.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Twitter">Twitter</a></li>
+									<li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Linkedin">Linkedin</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-1">
+								<a href="index.html" class="logo">
+								</a>
+							</div>
+							<div class="col-md-7">
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</footer>
+			
+			<!--End Footer-->
+		</div>
+
+		<!-- Libs -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="vendor/jquery.js"><\/script>')</script>
+		<script src="js/plugins.js"></script>
+		<script src="vendor/jquery.easing.js"></script>
+		<script src="vendor/jquery.appear.js"></script>
+		<script src="vendor/jquery.cookie.js"></script>
+		<script src="vendor/bootstrap.js"></script>
+		<script src="vendor/twitterjs/twitter.js"></script>
+		<script src="vendor/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="vendor/flexslider/jquery.flexslider.js"></script>
+		<script src="vendor/circle-flip-slideshow/js/jquery.flipshow.js"></script>
+		<script src="vendor/magnific-popup/magnific-popup.js"></script>
+		<script src="vendor/jquery.validate.js"></script>
+		
+		<%=javascript_include_tag "plugins.js"%>
+		<%=javascript_include_tag "jquery.easing.js"%>
+		<%=javascript_include_tag "jquery.appear.js"%>
+		<%=javascript_include_tag "jquery.cookie.js"%>
+		<%=javascript_include_tag "bootstrap.js"%>
+		<%=javascript_include_tag "twitter.js"%>
+		<%=javascript_include_tag "jquery.themepunch.plugins.min.js"%>
+		<%=javascript_include_tag "jquery.themepunch.revolution.min.js"%>						
+		<%=javascript_include_tag "jquery.flexslider.js"%>
+		<%=javascript_include_tag "jquery.flipshow.js"%>		
+		<%=javascript_include_tag "jflickrfeed.js"%>
+		<%=javascript_include_tag "magnific-popup.js"%>
+		<%=javascript_include_tag "jquery.validate.js"%>
+
+		<!-- Current Page Scripts -->
+		<script src="js/views/view.home.js"></script>
+		<%=javascript_include_tag "view.home.js"%>
+		
+
+		<!-- Theme Initializer -->
+		<script src="js/theme.js"></script>
+		<%=javascript_include_tag "theme.js"%>
+		
+
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+		<%=javascript_include_tag "custom.js"%>
+		
+
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+		<script>
+			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			e.src='//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			ga('create','UA-XXXXX-X');ga('send','pageview');
+		</script>
+		 -->
+
+	</body>
+</html>

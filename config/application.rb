@@ -24,5 +24,65 @@ module SocialSwayBackend
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+    
+    config.assets.paths << Rails.root.join('app', 'assets', 'images', 'Backgrounds')
+    
+    config.assets.paths << Rails.root.join('app', 'vendor', 'assets', 'circle-flip-slideshow', 'css')
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'circle-flip-slideshow', 'js')
+    
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'flexslider')
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'flexslider', 'fonts')
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'flexslider', 'images')
+    
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'isotope')
+    
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'javascripts')
+    
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'jflickrfeed')
+    
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'magnific-popup')
+    
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'nivo-slider')
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'nivo-slider','themes', 'bar')
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'nivo-slider','themes', 'dark')
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'nivo-slider','themes', 'default')
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'nivo-slider','themes', 'light')            
+    
+    config.assets.paths << Rails.root.join('app', 'vendor', 'assets', 'rs-plugin','assets')
+    config.assets.paths << Rails.root.join('app', 'vendor', 'assets', 'rs-plugin','css')
+    config.assets.paths << Rails.root.join('app', 'vendor', 'assets', 'rs-plugin','font')
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'rs-plugin','images')
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'rs-plugin','images', 'gradient')    
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'rs-plugin','js')
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'rs-plugin','videojs')
+    
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'twitterjs')
+    
+    config.assets.paths << Rails.root.join('app','vendor', 'assets', 'stylesheets')
+    
+    
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   end
 end

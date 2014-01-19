@@ -3,9 +3,9 @@ require 'spec_helper'
 describe "General Frontend" do
   
   describe "Home" do
-    it "should have the content 'SocialSway is a Self-Service Social Advertising Platform'" do
+    it "should have the content 'SocialSway is a Self-Service Social Ad-Tech Platform'" do
       visit '/general_frontend/home'
-      expect(page).to have_content('SocialSway is a Self-Service Social Advertising Platform')
+      expect(page).to have_content('SocialSway is a Self-Service Social Ad-Tech Platform')
     end
   end
   

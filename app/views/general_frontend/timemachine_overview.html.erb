@@ -1,2 +1,338 @@
-<h1>GeneralFrontend#timemachine_overview</h1>
-<p>Find me in app/views/general_frontend/timemachine_overview.html.erb</p>
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<title>SocialSway - Time Machine Overview</title>
+		<meta name="keywords" content="SocialSway, ad tech, marketing, advertising, programmatic marketing" />
+		<meta name="description" content="SocialSway - Artificial Intelligence + Social Advertising">
+		<meta name="author" content="Bhaskar Ravi">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Web Fonts  -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Libs CSS -->
+		<!-- <link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" href="vendor/flexslider/flexslider.css" media="screen" />
+		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen" /> -->
+		<%=stylesheet_link_tag "flexslider.css"%>
+		<%=stylesheet_link_tag "magnific-popup.css"%>
+		
+
+		<!-- Theme CSS -->
+		<!-- <link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+		<link rel="stylesheet" href="css/theme-animate.css"> -->
+		<%=stylesheet_link_tag "theme.css"%>
+		<%=stylesheet_link_tag "theme-elements.css"%>
+		<%=stylesheet_link_tag "theme-animate.css"%>
+		
+
+		<!-- Skin CSS -->
+		<!-- <link rel="stylesheet" href="css/skins/purple.css"> -->
+		<%=stylesheet_link_tag "purple.css"%>
+		
+
+		<!-- Custom CSS -->
+		<!-- <link rel="stylesheet" href="css/custom.css"> -->
+		<%=stylesheet_link_tag "custom.css"%>
+		
+
+		<!-- Responsive CSS -->
+		<!-- <link rel="stylesheet" href="css/theme-responsive.css" /> -->
+		<%=stylesheet_link_tag "theme-responsive.css"%>
+		
+
+		<!-- Head Libs -->
+		<!--<script src="vendor/modernizr.js"></script>-->
+		<%=javascript_include_tag "modernizr.js"%>
+		
+
+		<!--[if IE]>
+			<link rel="stylesheet" href="css/ie.css">
+		<![endif]-->
+
+		<!--[if lte IE 8]>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+
+		<!--BEGIN HEADER -->
+
+		<div class="body">
+			<header class="single-menu flat-menu">
+				<div class="container">
+					<h1 class="logo">
+						<a href="index.html">
+							<%= image_tag("logo.png", alt: "SocialSway")%>
+						</a>
+					</h1>
+					<button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
+						<i class="icon icon-bars"></i>
+					</button>
+				</div>
+				<div class="navbar-collapse nav-main-collapse collapse">
+					<div class="container">
+						<div class="social-icons">
+							<ul class="social-icons">
+								<li class="facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook">Facebook</a></li>
+								<li class="twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter">Twitter</a></li>
+								<li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin">Linkedin</a></li>
+							</ul>
+						</div>
+						<nav class="nav-main mega-menu">
+							<ul class="nav nav-pills nav-main" id="mainMenu">
+								
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="home.html">
+										Home
+									</a>
+								</li>
+								
+								<li class="dropdown active">
+									<a class="dropdown-toggle" href="#">
+										Time Machine
+										<i class="icon icon-angle-down"></i>
+									</a>
+										<ul class="dropdown-menu">
+											<li><a href="timemachine_overview.html">Overview</a></li>
+											<li><a href="timemachine_cases.html">Case Studies</a></li>
+										</ul>							
+								</li>
+								
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="platform.html">
+										Platform
+									</a>
+								</li>		
+														
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="about.html">
+										About Us
+									</a>									
+								</li>	
+																														
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="contact.html">
+										Contact Us	
+									</a>
+								</li>
+								
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			
+			<!--END HEADER-->
+
+			<div role="main" class="main">
+
+				<section class="page-top">
+					
+				</section>
+
+				<div class="container">	
+														
+					<h2>Introducing SocialSway's <strong>Time Machine</strong></h2>
+						<p>Time Machine is the <strong>most advanced</strong> optimized bidding solution in the market. Built on proprietary mathematical and statistical algorithms, Time Machine breaks the traditional process of selecting a bid type based on a campaign objective. Instead, Time Machine calculates the optimal bid <strong>type</strong> and bid <strong>amount</strong> every active hour of a campaign, bidding based on trends and projections. The results: <strong>lower campaign costs-to-goal</strong> (the cost it takes to reach your campaign goal) <strong>and increased campaign performance.</strong></p>
+																											
+					<hr class="tall">
+					<div class="row">
+						<div class="col-md-7">
+							<h4>How It Works</h4>
+							<p class="taller">Time Machine learns about the unique, individual aspects of your campaigns, creating a programmatic picture of your brand over time.<br><br>
+								As you run campaigns through our platform, Time Machine analyzes your data to predict how your Ad Groups will perform in the near future. This means we know how many impressions, clicks, likes, and actions your Ad Groups will generate, and how your bids will fare, <strong>before</strong> these events actually take place.<br><br>
+								We then match up appropriate bid types and amounts for all Ad Groups in all your active campaigns, boosting the bids of Ad Groups that are projected to do well, and lowering the bids of those that aren’t.</p>
+						</div>							
+						<div class="col-md-5">
+							<p><br></p>
+							<%= image_tag("Forecasts.jpg", alt: "Sorry the pic didn't load!")%>
+						</div>
+						
+					</div>
+					
+					
+					<hr class="tall">									
+					<div class="row center counters">
+						<div class="col-md-4">
+							<strong data-to="20">0</strong>
+							<label>% Decrease in Costs-to-Goal </label>
+						</div>
+						<div class="col-md-4">
+							<strong data-to="30">0</strong>
+							<label>% Decrease in Avg. CPA</label>
+						</div>
+						<div class="col-md-4">
+							<strong data-to="15">0</strong>
+							<label>% Increase in Interaction</label>
+						</div>
+						
+					</div>  
+					
+							
+					<hr class="tall">	
+					<h4>Boost Performance and Enhance Insights</h4>
+													
+					<div class="row">	
+						<div class="col-md-8">																								
+							<p>With Time Machine, brands get a performance boost over current leading optimized bidding solutions. Advertisers will achieve a decrease in total campaign costs-to-goal of up to 20%, as well as a significant reduction in their average CPA. <br><br>
+							   Advertisers can see how Time Machine works while their campaigns are running. Predictions for each <br>active Ad Group are updated in <strong>real time</strong>, and advertiers can view a <strong>performance forecast</strong> along with projected bid types and amounts. Advertisers can follow along with Time Machine's logic and enhance <br>their advertising strategies based on this insight. </p>
+						</div>																				
+						<div class = "col-md-4">
+							<ul class="list icons list-unstyled">
+								<li><i class="icon icon-money"></i> <strong>Campaign Savings</strong> Save ~20% off the costs to reach your campaign goals.</li>
+								<li><i class="icon icon-arrow-down"></i> <strong>Decreased CPA</strong> Lower your average CPA by ~30%.</li>
+								<li><i class="icon icon-comment"></i> <strong>Increase Buzz</strong> Increase the amount of interaction (clicks + actions) your campaign recieves when active. </li>
+							</ul>								
+						</div>				
+						
+					</div>
+
+					<hr class="tall" />
+					<div class="row">
+						<div class = "col-md-12">																			
+							<h4>Adaptive Learning</h4>
+							<p>Time Machine never stops learning. The more campaigns you run through our platoform, the more data we have to work with, the better the forecasting. This leads to a consistent increase in ROI over time, and a continuous improvement in campaign success.</p>
+						</div>
+					</div>
+
+			</div>
+			
+			
+			
+
+
+			<section class="call-to-action featured footer">
+				<div class="container">
+					<div class="row">
+						<div class="center">
+							<h3>Reduce costs and boost performance with <strong>Time Machine</strong>.</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Begin Footer -->
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="footer-ribon">
+							<span>Get in Touch</span>
+						</div>
+						
+						<div class="col-md-10">
+							<div class="contact-details">
+								<h4>Contact Us</h4>
+								<ul class="contact">
+									<li><p><i class="icon icon-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</p></li>
+									<li><p><i class="icon icon-phone"></i> <strong>Phone:</strong> (123) 456-7890</p></li>
+									<li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<h4>Follow Us</h4>
+							<div class="social-icons">
+								<ul class="social-icons">
+									<li class="facebook"><a href="http://www.facebook.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Facebook">Facebook</a></li>
+									<li class="twitter"><a href="http://www.twitter.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Twitter">Twitter</a></li>
+									<li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Linkedin">Linkedin</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-1">
+								<a href="index.html" class="logo">
+									<!--<img alt="Porto Website Template" class="img-responsive" src="img/logo-footer.png">-->
+								</a>
+							</div>
+							<div class="col-md-7">
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</footer>
+			
+			<!--End Footer-->
+			
+			
+			
+			
+		</div>
+
+		<!-- Libs -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="vendor/jquery.js"><\/script>')</script>
+		<script src="js/plugins.js"></script>
+		<script src="vendor/jquery.easing.js"></script>
+		<script src="vendor/jquery.appear.js"></script>
+		<script src="vendor/jquery.cookie.js"></script>
+		<!-- <script src="master/style-switcher/style.switcher.js"></script> Style Switcher -->
+		<script src="vendor/bootstrap.js"></script>
+		<script src="vendor/twitterjs/twitter.js"></script>
+		<script src="vendor/flexslider/jquery.flexslider.js"></script>
+		<script src="vendor/jflickrfeed/jflickrfeed.js"></script>
+		<script src="vendor/magnific-popup/magnific-popup.js"></script>
+		<script src="vendor/jquery.validate.js"></script>
+		
+		<%=javascript_include_tag "plugins.js"%>
+		<%=javascript_include_tag "jquery.easing.js"%>
+		<%=javascript_include_tag "jquery.appear.js"%>
+		<%=javascript_include_tag "jquery.cookie.js"%>
+		<%=javascript_include_tag "bootstrap.js"%>
+		<%=javascript_include_tag "twitter.js"%>
+		<%=javascript_include_tag "jquery.flexslider.js"%>
+		<%=javascript_include_tag "jflickrfeed.js"%>
+		<%=javascript_include_tag "magnific-popup.js"%>
+		<%=javascript_include_tag "jquery.validate.js"%>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		<!-- Theme Initializer -->
+		<script src="js/theme.js"></script>
+		<%=javascript_include_tag "theme.js"%>
+		
+
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+		<%=javascript_include_tag "custom.js"%>
+		
+
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+		<script>
+			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			e.src='//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			ga('create','UA-XXXXX-X');ga('send','pageview');
+		</script>
+		 -->
+
+	</body>
+</html>
