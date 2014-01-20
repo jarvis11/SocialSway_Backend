@@ -26,6 +26,10 @@ module SocialSwayBackend
     # config.i18n.default_locale = :de
     
     config.assets.paths << Rails.root.join('app', 'assets', 'images', 'Backgrounds')
+    config.assets.paths << Rails.root.join('app', 'assets', 'stylesheets', 'fonts', 'font-awesome', 'css')
+    config.assets.paths << Rails.root.join('app', 'assets', 'stylesheets', 'fonts', 'font-awesome', 'fonts')
+    
+    
     
     config.assets.paths << Rails.root.join('vendor', 'assets', 'circle-flip-slideshow', 'css')
     config.assets.paths << Rails.root.join('vendor', 'assets', 'circle-flip-slideshow', 'js')
