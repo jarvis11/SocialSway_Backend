@@ -27,38 +27,38 @@ module SocialSwayBackend
     
     config.assets.paths << Rails.root.join('app', 'assets', 'images', 'Backgrounds')
     
-    # config.assets.paths << Rails.root.join('vendor', 'assets', 'circle-flip-slideshow', 'css')
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'circle-flip-slideshow', 'js')
-#     
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'flexslider')
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'flexslider', 'fonts')
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'flexslider', 'images')
-#     
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'isotope')
-#     
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'javascripts')
-#     
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'jflickrfeed')
-#     
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'magnific-popup')
-#     
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'nivo-slider')
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'nivo-slider','themes', 'bar')
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'nivo-slider','themes', 'dark')
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'nivo-slider','themes', 'default')
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'nivo-slider','themes', 'light')            
-#     
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'rs-plugin','assets')
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'rs-plugin','css')
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'rs-plugin','font')
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'rs-plugin','images')
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'rs-plugin','images', 'gradient')    
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'rs-plugin','js')
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'rs-plugin','videojs')
-#     
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'twitterjs')
-#     
-#     config.assets.paths << Rails.root.join('vendor', 'assets', 'stylesheets')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'circle-flip-slideshow', 'css')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'circle-flip-slideshow', 'js')
+    
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'flexslider')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'flexslider', 'fonts')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'flexslider', 'images')
+    
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'isotope')
+    
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'javascripts')
+    
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'jflickrfeed')
+    
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'magnific-popup')
+    
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'nivo-slider')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'nivo-slider','themes', 'bar')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'nivo-slider','themes', 'dark')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'nivo-slider','themes', 'default')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'nivo-slider','themes', 'light')            
+    
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'rs-plugin','assets')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'rs-plugin','css')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'rs-plugin','font')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'rs-plugin','images')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'rs-plugin','images', 'gradient')    
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'rs-plugin','js')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'rs-plugin','videojs')
+    
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'twitterjs')
+    
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'stylesheets')
     
     
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
