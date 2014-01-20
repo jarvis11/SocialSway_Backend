@@ -62,6 +62,7 @@ module SocialSwayBackend
     
     
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+    config.assets.precompile += %w( *.css *.js )
     
    
     
