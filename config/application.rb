@@ -62,6 +62,10 @@ module SocialSwayBackend
     
     
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+    config.assets.precompile += ["fontawesome-webfont.ttf",
+                             "fontawesome-webfont.eot",
+                             "fontawesome-webfont.svg",
+                             "fontawesome-webfont.woff"]
     #config.assets.precompile += %w( *.css *.js *.scss)
     
    
